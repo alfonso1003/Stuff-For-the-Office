@@ -1,11 +1,14 @@
 import os
 
-def translationCatalogueRenamer():
+def translationCatalogueRenamer(base):
+	"""
+	This assumes there is a "base - subdirectory - files" structure
 	
-	#assuming there is a "base - subdirectory - files" structure
-
-    base = 'C:\Users\\ahernandez\\Desktop\\translationCatalogues_test'
+	example usage:
+	base = 'C:\Users\\ahernandez\\Desktop\\translationCatalogues_test'
+	translationCatalogueRenamer(base)
 	
+	"""
 	# get all subdirectories from the base
     directories = os.listdir(base)
 	
