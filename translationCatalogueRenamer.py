@@ -1,6 +1,7 @@
 import os
 
 def translationCatalogueRenamer():
+	
 	#assuming there is a "base - subdirectory - files" structure
 
     base = 'C:\Users\\ahernandez\\Desktop\\translationCatalogues_test'
