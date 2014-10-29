@@ -2,7 +2,7 @@ import os
 
 def translationCatalogueRenamer(base):
     """
-    This assumes there is a "base - subdirectory - files" structure
+    This assumes there is a "base - subdirectory(ies) - file(s)" structure
     
     example usage:
     base = 'C:\Users\\ahernandez\\Desktop\\translationCatalogues_test'
@@ -13,6 +13,7 @@ def translationCatalogueRenamer(base):
     directories = os.listdir(base)
     
     # get all files in each subdirectory
+    # this part of the code should change depending on your task
     for directory in directories:
         files =  os.listdir(os.path.join(base,directory))
         
