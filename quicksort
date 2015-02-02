@@ -1,6 +1,7 @@
 #!/usr/bin/env python
 
-# Written by Magnus Lie Hetland 
+# Written by Magnus Lie Hetland
+# http://hetland.org/coding/python/quicksort.html
 
 "Everybody's favourite sorting algorithm... :)"
 
